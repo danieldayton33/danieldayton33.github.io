@@ -59,9 +59,9 @@ nav {
     margin: 0 auto;
 }
 /* portfolio css */
-#portfolio {
-    height: 200px;
-    margin: 20px;
+.card {
+    float: left;
+    padding: 10px;
 }
 @media screen and ( max-width: 580px) {
     #content {
