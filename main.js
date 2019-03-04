@@ -20,7 +20,7 @@ $("#contact-button").on("click", ()=>{
     $("#portfolio").hide();
     $("#contact-modal").modal('toggle');
 });
-$("#carousel").on("click", ()=>{
+$(".carousel-pic").on("click", ()=>{
     $("#start-slider").hide();
     $("#about").hide();
     $("#portfolio").show();
