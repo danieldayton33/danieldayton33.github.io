@@ -1,7 +1,7 @@
 body {
-    font-family: 'Lato', Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
     background-color: hsl(200, 33%, 96%);
-    color: #777777;
+    color: hsl(200, 31%, 14%);
     display: flex;
     flex-direction: column;
    
@@ -50,10 +50,10 @@ h1 {
 }
 #under-header{
     text-align: center;
+    color: hsl(200, 16%, 16%);
 }
 #name-header {
     font-family: 'Alegreya Sans SC', sans-serif;
-    font-style: 'thin';
     font-size: 100px;
     cursor: pointer;
     text-align: center;
@@ -81,7 +81,7 @@ nav {
 }
 .logo{
     height:50px;
-    color: black;
+    color: darkgray;
 }
 #footer {
     flex-shrink: 0;
