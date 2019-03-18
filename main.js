@@ -1,6 +1,22 @@
 $(document).ready(function(){
 const buttonArray = ["CSS", "Javascript", "HTML", "nodeJS", "APIs"]
 
+//bouncejs stuff
+// const bounce = new Bounce();
+// bounce.translate({
+//     from: { x: 0, y: 0},
+//     to: {x: 0, y: 0}
+// });
+// bounce.applyTo($(".nav"));
+
+// const bounceLeft = new Bounce();
+// bounceLeft.translate({
+//     from: { x: 0, y: 0},
+//     to: {x: 0, y: -150}
+// });
+// bounceLeft.applyTo($("#name-header")).then(function(){
+//     createButtons();
+// });
 const createButtons = ()=> {
     buttonArray.forEach(category =>{
         const newButton = $('<button>',
@@ -17,6 +33,48 @@ const createButtons = ()=> {
     $('#filter-buttons').append(newButton);  
     });
 }
+const projectArray = [
+    {
+        categories: ["javascript", "html", "css"],
+        imageSrc: "assets/images/Photoz/gameofthrones.png",
+        cardTitle: "Game of Thrones javaScript",
+        cardText: "Simple javaScript game. Try to defeat all enemies.",
+        url: "https://danieldayton33.github.io/gotgame/",
+        gitHub: "https://github.com/danieldayton33/gotgame"
+    },
+    {
+        categories: ["javascript", "html", "css"],
+        imageSrc: "assets/images/Photoz/gameofthrones.png",
+        cardTitle: "Game of Thrones javaScript",
+        cardText: "Simple javaScript game. Try to defeat all enemies.",
+        url: "https://danieldayton33.github.io/gotgame/",
+        gitHub: "https://github.com/danieldayton33/gotgame"
+    },
+    {
+        categories: ["javascript", "html", "css"],
+        imageSrc: "assets/images/Photoz/gameofthrones.png",
+        cardTitle: "Game of Thrones javaScript",
+        cardText: "Simple javaScript game. Try to defeat all enemies.",
+        url: "https://danieldayton33.github.io/gotgame/",
+        gitHub: "https://github.com/danieldayton33/gotgame"
+    },
+    {
+        categories: ["javascript", "html", "css"],
+        imageSrc: "assets/images/Photoz/gameofthrones.png",
+        cardTitle: "Game of Thrones javaScript",
+        cardText: "Simple javaScript game. Try to defeat all enemies.",
+        url: "https://danieldayton33.github.io/gotgame/",
+        gitHub: "https://github.com/danieldayton33/gotgame",
+    },
+    {
+        categories: ["javascript", "html", "css"],
+        imageSrc: "assets/images/Photoz/gameofthrones.png",
+        cardTitle: "Game of Thrones javaScript",
+        cardText: "Simple javaScript game. Try to defeat all enemies.",
+        url: "https://danieldayton33.github.io/gotgame/",
+        gitHub: "https://github.com/danieldayton33/gotgame"
+    }
+];
 createButtons();
 
 const clearCards = (category)=> {
